@@ -1,6 +1,6 @@
 {
   "name": "i18next-node-mongodb-backend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "i18next node.js backend layer for i18next using mongodb",
   "keywords": [
     "i18next",
@@ -10,11 +10,10 @@
   "bugs": {
     "url": "https://github.com/gian788/i18next-node-mongodb-backend/issues"
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
-    "i18next": "^2.0.4"
+    "mocha": "*",
+    "should": "*"
   },
   "repository": {
     "type": "git",
@@ -25,10 +24,6 @@
     "url": "https://github.com/gian788"
   },
   "license": "MIT",
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
   "scripts": {
     "test": "mocha test.js"
   },
