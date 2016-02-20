@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'version', 'patch' ]
+2 info using npm@2.14.9
+3 info using node@v0.12.8
+4 verbose node symlink /usr/bin/node
+5 info git [ 'status', '--porcelain' ]
+6 verbose stack Error: Git working directory not clean.
+6 verbose stack M .travis.yml
+6 verbose stack M .trvis.yml
+6 verbose stack M lib/index.js
+6 verbose stack M package.json
+6 verbose stack     at /usr/lib/node_modules/npm/lib/version.js:171:21
+6 verbose stack     at ChildProcess.exithandler (child_process.js:742:7)
+6 verbose stack     at ChildProcess.emit (events.js:110:17)
+6 verbose stack     at maybeClose (child_process.js:1016:16)
+6 verbose stack     at Socket.<anonymous> (child_process.js:1184:11)
+6 verbose stack     at Socket.emit (events.js:107:17)
+6 verbose stack     at Pipe.close (net.js:484:11)
+7 verbose cwd /srv/server/modules/i18next-node-mongodb-backend
+8 error Linux 3.13.0-68-generic
+9 error argv "/usr/bin/node" "/usr/bin/npm" "version" "patch"
+10 error node v0.12.8
+11 error npm  v2.14.9
+12 error Git working directory not clean.
+12 error M .travis.yml
+12 error M .trvis.yml
+12 error M lib/index.js
+12 error M package.json
+13 error If you need help, you may report this error at:
+13 error     <https://github.com/npm/npm/issues>
+14 verbose exit [ 1, true ]

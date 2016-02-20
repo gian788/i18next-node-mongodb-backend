@@ -1,6 +1,6 @@
 {
   "name": "i18next-node-mongodb-backend",
-  "version": "0.1",
+  "version": "0.0.1",
   "description": "i18next node.js backend layer for i18next using mongodb",
   "keywords": [
     "i18next",
@@ -14,7 +14,7 @@
 
   },
   "devDependencies": {
-    "i18next": "^2.0.4",
+    "i18next": "^2.0.4"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,5 @@
   "scripts": {
     "test": "mocha test.js"
   },
-  "main": "./lib/index.js",
+  "main": "./lib/index.js"
 }
