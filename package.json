@@ -24,8 +24,5 @@
     "url": "https://github.com/gian788"
   },
   "license": "MIT",
-  "scripts": {
-    "test": "mocha test.js"
-  },
   "main": "./lib/index.js"
 }
