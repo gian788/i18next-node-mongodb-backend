@@ -1,6 +1,6 @@
 {
   "name": "i18next-node-mongodb-backend",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "i18next node.js backend layer for i18next using mongodb",
   "keywords": [
     "i18next",
