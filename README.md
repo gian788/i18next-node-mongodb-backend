@@ -48,7 +48,7 @@ Options can be passed in:
 
 ```js
 var i18next = require('i18next');
-var Backend = require('i18next-node-fs-backend');
+var Backend = require('i18next-node-mongodb-backend');
 
 i18next
   .use(Backend)
@@ -60,14 +60,14 @@ i18next
 on construction:
 
 ```js
-var Backend = require('i18next-node-fs-backend');
+var Backend = require('i18next-node-mongodb-backend');
 var backend = new Backend(null, options);
 ```
 
 by calling init:
 
 ```js
-var Backend = require('i18next-node-fs-backend');
+var Backend = require('i18next-node-mongodb-backend');
 var backend = new Backend();
 backend.init(options);
 ```
